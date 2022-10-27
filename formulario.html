@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="header">
+            <h1>Formulario</h1>
+        </div>
+        <form action="" class="form">
+            <ul>
+                <li>
+                    <label for="name" class="nombre">Nombre:</label>
+                    <input type="text" class="input-nombre" placeholder="Nombre">
+                </li>
+                <li>
+                    <label for="mail" class="correo">Correo electronico:</label>
+                    <input type="mail" class="input-mail" placeholder="ejemplo@ejemplo.com">
+                </li>
+                <li>
+                    <label for="number" class="numero">Número:</label>
+                    <input type="number" class="input numero" placeholder="999 999 999">
+                </li>
+                <li class="textarea">
+                    <label for="msg" class="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <button class="enviar-mensaje">Enviar mensaje</button>
+</body>
+</html>

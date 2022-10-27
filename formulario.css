@@ -1,0 +1,116 @@
+:root {
+    --lg-text: 32px;
+    --md-text: 24px;
+    --sm-text: 18px;
+    --white: #ffffff;
+    --black: #000000;
+    --dark: #2B2D42;
+    --semi-light: #8D99AE;
+    --light: #EDF2F4;
+    --semi-red: #EF233C;
+    --red: #D90429;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, var(--dark), var(--semi-light));
+    height: 100vh;}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 22px 0;
+    width: 500px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.header {
+    color: var(--light);
+    font-size: var(--lg-text);
+    letter-spacing: 2px;
+    margin: 15px 0;
+}
+
+.form {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    width: 100%;
+    height: 60vh;
+    
+}
+
+ul {
+    height: 100%;
+}
+
+.form ul li {
+    width: 100%;
+    height: 35px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    font-size: var(--sm-text);
+    color: var(--dark);
+}
+
+input {
+    width: 100%;
+    border: none;
+    height: 100%;
+    background-color: var(--light);
+    margin-left: 3px;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+.textarea {
+    display: flex;
+    align-items: flex-start !important;
+    height: 100%;
+}
+
+#mensaje {
+    width: 100%;
+    height: 100px;
+    border: none;
+    background-color: var(--light);
+    margin-left: 3px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+button {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0;
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: var(--semi-red);
+    padding: 10px;
+    font-size: var(--md-text);
+    border: none;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    color: var(--light);
+}
